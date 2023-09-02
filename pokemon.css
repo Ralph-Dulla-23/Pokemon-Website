@@ -1,0 +1,77 @@
+*{
+    overflow-x: hidden;
+    background: linear-gradient(-45deg, #194596, #0A285F);
+    font-family: 'Minecraft', sans-serif;    
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    height: 70px;
+    position: relative;
+    margin-right: auto;
+}
+
+body{
+    background: linear-gradient(-45deg, #284f98, #103375);
+}
+
+.container{
+    display: flex;
+    list-style: none;
+    color: #D5A100;
+}
+
+.items{
+    padding-right: 10px;
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: 'Minecraft', sans-serif;
+    border-radius: 3px;
+                                                
+}
+
+.container a{
+    text-decoration: none;
+    color: #FFCC00;
+}
+
+.container a:hover{
+    color: #D5A100;
+}
+
+h1{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+  color: white;
+  font-weight: 100;
+  font-size: 42px;
+  line-height: 24px;
+  padding: 30px 40px;
+  text-align: left;
+  width: 90%;
+}
+p{
+  color: rgb(253, 253, 253);
+  line-height: 1.3em;
+  text-align: justify;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.desc{
+    padding: 10px 40px;
+}
+header{
+    padding: 35px;
+    
+}
+
+.banner{
+background-size: cover;
+  background-position: bottom center;
+  
+  width: auto;
+}
