@@ -1,42 +1,37 @@
 *{
-    overflow-x: hidden;
     background: linear-gradient(-45deg, #194596, #0A285F);
     font-family: 'Minecraft', sans-serif;    
-    height: auto;
     background-attachment: fixed;
-    background-size: cover;
+    
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
 .logo{
     height: 70px;
-    position: relative;
-    margin-right: auto;
 }
-
-body{
-    background: linear-gradient(-45deg, #284f98, #103375);
+.logo2{
+    height: 70px;
+    margin-left: 8% ;
 }
-
-.container{
-    display: flex;
-    list-style: none;
-    color: #D5A100;
-}
-
-.items{
-    padding-right: 10px;
-    padding-top: 30px;
+.container li{
+    display: inline-block;
+    padding: 0px 5px;
     font-size: 20px;
-    font-family: 'Minecraft', sans-serif;
-    border-radius: 3px;
-                                                
+    text-transform: uppercase;
 }
-
+            
 .container a{
     text-decoration: none;
     color: #FFCC00;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
 }
 
 .container a:hover{
@@ -60,18 +55,11 @@ p{
   width: 100%;
   font-size: 18px;
   margin-top: 20px;
+  padding: 10px 40px;
 }
-.desc{
-    padding: 10px 40px;
-}
-header{
-    padding: 35px;
-    
-}
-
+ 
 .banner{
-background-size: cover;
+  background-size: cover;
   background-position: bottom center;
-  
-  width: auto;
+  width: 100%;
 }
