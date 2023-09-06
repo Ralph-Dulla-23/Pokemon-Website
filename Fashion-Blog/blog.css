@@ -10,10 +10,13 @@
 
 .wrapper{
     margin: 50px auto;
+    
+}
+.text-box {
+    
 }
 p{
-    padding: 30px;
-    
+    padding: 20px;
 }
 
 #line {
@@ -48,6 +51,7 @@ h1, h2{
 img{
     float: left;
     border-radius: 40px;
+    margin-right: 15px;
 }
 
 
