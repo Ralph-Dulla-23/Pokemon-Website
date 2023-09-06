@@ -78,3 +78,8 @@ p{
     text-align: center;
 
 }
+#startimg{
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+}
