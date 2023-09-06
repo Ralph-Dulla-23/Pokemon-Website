@@ -1,32 +1,50 @@
 *{
-    background: linear-gradient(-45deg, #194596, #0A285F);
-    font-family: 'Minecraft', sans-serif;    
+    background:     #fef9f8;
+    font-family: 'Poppins', sans-serif;  
     background-attachment: fixed;
-    position: relative;
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: white;
+    color: #0d0d0d;
     padding: 10px;
+}
+
+.wrapper{
+    margin: 50px auto;
 }
 p{
     padding: 30px;
+    
+}
+
+#line {
+    flex: 1;
+  border-bottom: 3px dashed #ef9273;
+  margin-bottom: 10px;
+    
 }
 #writerimg {
-    display: inline-block;
-  width: auto;
-  height: autox;
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 25%;
+}
+.about{
+    font-family: Helvetica;
+    color: rgba(0, 0, 0, 0.5);
+    float: left;
+    padding: 40px;
+    font-size: 14px;
+    padding-left: 5px;
+    text-transform: uppercase;
 }
 
 h1, h2{
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-    color: white;
-    font-weight: 100;
-    font-size: 42px;
-    line-height: 24px;
-    padding: 30px 40px;
-    text-align: left;
-    width: 90%;
+    color: #ef9273;
 }
+img{
+    float: left;
+    border-radius: 40px;
+}
+
 
 
