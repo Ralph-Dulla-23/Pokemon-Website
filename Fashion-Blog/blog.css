@@ -9,27 +9,35 @@
 }
 
 .wrapper{
-    margin: 50px auto;
+    margin: 60px auto;
     
+}
+#space{
+    margin-top: 200px;
 }
 .text-box {
     
 }
 p{
-    padding: 20px;
+    padding: 0px;
+    font-size: 20px;
+    margin: auto auto;
 }
 
 #line {
     flex: 1;
   border-bottom: 3px dashed #ef9273;
-  margin-bottom: 10px;
-    
+  position: relative;
+  
 }
+
 #writerimg {
     width: 100px;
     height: 100px;
     float: left;
     border-radius: 25%;
+    margin: 10px 0px;
+    border-top: #ef9273;
 }
 #writerimg:hover{
     transition: 0.5s ease-in-out;
@@ -39,7 +47,7 @@ p{
     font-family: Helvetica;
     color: rgba(0, 0, 0, 0.5);
     float: left;
-    padding: 40px;
+    padding: 50px;
     font-size: 14px;
     padding-left: 5px;
     text-transform: uppercase;
@@ -47,11 +55,15 @@ p{
 
 h1, h2{
     color: #ef9273;
+    font-size: 40px;
 }
 img{
     float: left;
     border-radius: 40px;
     margin-right: 15px;
+}
+#contact{
+    text-align: center;
 }
 
 
