@@ -9,35 +9,33 @@
 }
 
 .wrapper{
-    margin: 60px auto;
+    margin: 40px auto;
     
 }
 #space{
-    margin-top: 200px;
+    margin-top: 150px;
+    position: relative;
 }
-.text-box {
-    
-}
+
 p{
-    padding: 0px;
+    padding: px;
     font-size: 20px;
-    margin: auto auto;
+    margin: -20px auto;
 }
 
 #line {
     flex: 1;
   border-bottom: 3px dashed #ef9273;
   position: relative;
-  
+  margin: 0 auto;
 }
 
 #writerimg {
     width: 100px;
     height: 100px;
-    float: left;
+    float: right;
     border-radius: 25%;
     margin: 10px 0px;
-    border-top: #ef9273;
 }
 #writerimg:hover{
     transition: 0.5s ease-in-out;
@@ -46,10 +44,10 @@ p{
 .about{
     font-family: Helvetica;
     color: rgba(0, 0, 0, 0.5);
-    float: left;
+    float: right;
     padding: 50px;
     font-size: 14px;
-    padding-left: 5px;
+    padding-right: 5px;
     text-transform: uppercase;
 }
 
@@ -58,13 +56,28 @@ h1, h2{
     font-size: 40px;
 }
 img{
-    float: left;
+    float: right;
     border-radius: 40px;
     margin-right: 15px;
+    height: 200px;
+    margin-top: 15px;
 }
 #contact{
     text-align: center;
 }
-
+h4{
+    color: #dc7654;
+    font-size: 30px;
+    margin-top: -50px;
+}
+#div2 img{
+    float: left;
+}
+li{
+    font-size: 16px;
+}
+ul{
+    margin-bottom: 20px;
+}
 
 
