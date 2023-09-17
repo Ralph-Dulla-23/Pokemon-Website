@@ -12,6 +12,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 30px 50px;
+   
+    background-color: white !important;
 }
 .logo{
     height: 70px;
