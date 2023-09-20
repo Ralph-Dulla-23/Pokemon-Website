@@ -221,7 +221,7 @@ a{
         color: #9f9f9f;
         font-weight: 300;
         letter-spacing: 2px;
-        padding: 19.6% 0;
+        padding: 22% 0;
         margin: 100px 0;
         
     }
@@ -253,5 +253,8 @@ a{
     .content{
         font-size: 60px;
         padding:  19.6% 0;;
+    }.logo{
+        padding: 21.5% 0;
     }
+    
 }
