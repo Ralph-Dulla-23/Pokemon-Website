@@ -185,5 +185,12 @@ a{
 }
 
 @media screen and (max-width:1366){ 
-    
+    .Dog{
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        float: right;
+        margin: -100px 200px;
+        position: relative;
+    }
 }
