@@ -7,7 +7,7 @@
 }
 
 .img{
-    background-image: url("wine2.jpg");
+    background-image: url("/assests/images/wine2.jpg");
     width: auto;
     height: 100vh;
     background-attachment: fixed;
