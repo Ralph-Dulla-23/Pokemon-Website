@@ -70,7 +70,7 @@ p{
     font-weight: 300;
     letter-spacing: 2px;
     padding: 19.6% 0;
-    margin: 100px 0;
+    margin: 40px 0;
     
 }
 .about h3{
@@ -92,7 +92,23 @@ p{
 }
 .content{
     font-size: 60px;
-    padding:  19.6% 0;;
+    padding:  9.6% 0;;
+}
+.content p{
+    text-align: justify;
+    margin: 30px 100px;
+    color: black;
+    padding: 50px 10px;
+}
+.content h4{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    margin: 0px auto;
+    margin-top: 150px;
+    margin-bottom: -100px;
+    align-items: center;
+    text-align: center;
 }
 
 .para1{
@@ -184,7 +200,9 @@ a{
     text-decoration: none;
 }
 
-@media (max-width:1367px){ 
+
+
+@media (max-width:1450px){ 
     .Dog{
         width: 300px;
         height: 300px;
@@ -217,7 +235,7 @@ a{
         margin-left: 10px;
     }
     .about h2{
-        font-size: 80px;
+        font-size: 40px;
         color: #9f9f9f;
         font-weight: 300;
         letter-spacing: 2px;
